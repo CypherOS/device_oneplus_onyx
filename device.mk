@@ -103,8 +103,7 @@ PRODUCT_PACKAGES += \
     camera.msm8974 \
     libboringssl-compat \
     libstlport \
-    libshim_camera \
-    Snap
+    libshim_camera
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -116,8 +115,8 @@ PRODUCT_PACKAGES += \
     rmnetcli
 
 # Doze
-PRODUCT_PACKAGES += \
-    OneplusDoze
+#PRODUCT_PACKAGES += \
+    #OneplusDoze
 
 # Graphics
 PRODUCT_PACKAGES += \
@@ -127,10 +126,6 @@ PRODUCT_PACKAGES += \
     memtrack.msm8974 \
     liboverlay \
     libtinyxml
-
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
 
 # GPS
 PRODUCT_PACKAGES += \
