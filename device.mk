@@ -100,17 +100,12 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8974 \
-    Snap
+    camera.msm8974
 
 # Data
 PRODUCT_PACKAGES += \
     librmnetctl \
     rmnetcli
-
-# Doze
-PRODUCT_PACKAGES += \
-    OneplusDoze
 
 # Graphics
 PRODUCT_PACKAGES += \
@@ -228,5 +223,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     wcnss_service
 
-# Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+# Inherit from oneplus common
+$(call inherit-product, device/oneplus/common/common.mk)
