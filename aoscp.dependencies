@@ -12,6 +12,12 @@
     "branch":      "nougat-mr2"
   },
   {
+   "repository":  "device_qcom_common",
+   "target_path": "device/qcom/common",
+   "branch":      "nougat-mr2",
+   "remote":      "aoscp"
+  },
+  {
     "repository":  "proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
     "remote":      "aoscp",
